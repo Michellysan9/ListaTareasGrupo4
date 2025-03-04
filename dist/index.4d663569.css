@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #f4f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  background: #fff;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 50px;
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 0 0 10px #0003;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+  background: #dcdcdcdc;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  padding: 10px;
+  display: flex;
+}
+
+li.completada {
+  background: #a0d468;
+  text-decoration: line-through;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background: #ff5c5c;
+  border: none;
+  padding: 5px 10px;
+}
+/*# sourceMappingURL=index.4d663569.css.map */

@@ -3,7 +3,7 @@ const agregarBtn = document.querySelector("#agregarBtn");
 const listaTareas = document.querySelector("#listaTareas");
 
 document.addEventListener("DOMContentLoaded", cargarTareas);
-//agregarBtn.addEventListener("click", agregarTareaPrincipal);
+
 function agregarTareaPrincipal() {
   const tareaTexto = tareaInput.value.trim();
   if (!tareaTexto) {

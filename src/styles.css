@@ -26,7 +26,7 @@ ul {
 
 li {
   padding: 10px;
-  /* background: #ffba85dc; */
+  background: #ffba85dc; 
   margin-top: 5px;
   display: flex;
   justify-content: space-between;

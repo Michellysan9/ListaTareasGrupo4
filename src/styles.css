@@ -1,13 +1,18 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  
   text-align: center;
-  background-color: #f4f4f4f4;
+  background-color: #f3a67df4;
+}
+
+h1{
+  color: hsl(18, 92%, 61%);
 }
 
 .contenedor {
   margin-top: 50px;
   padding: 20px;
-  background: white;
+  background: #f9eee7;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   display: inline-block;
   width: 300px;
@@ -21,7 +26,7 @@ ul {
 
 li {
   padding: 10px;
-  background: #dcdcdcdc;
+  /* background: #ffba85dc; */
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
@@ -31,12 +36,12 @@ li {
 
 li.completada {
   text-decoration: line-through;
-  background: #a0d468;
+  background: #fbb99b;
 }
 
 button {
   padding: 5px 10px;
-  background: #ff5c5c;
+  background: #ff8a5c;
   border: none;
   color: white;
   cursor: pointer;
